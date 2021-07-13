@@ -3,7 +3,7 @@ const Results = document.getElementById('results');
 
 function showResults(parametro) {
     const div = document.createElement("div");
-        div.innetHTML = parametro;
+        div.innerHTML = parametro;
         Results.appendChild(div);
 }
 
